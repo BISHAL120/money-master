@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Money Master</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="heading">MONEY MASTER</h1>
+        <section id="main-section">
+            <!-- image section -->
+            <section>
+                <img id="image" src="money.jpg" alt="">
+            </section>
+
+
+            <!-- calculatiion section -->
+            <section id="section2">
+                <h3 class="heading">Income</h3>
+                <p>Income <input id="income" type="number" placeholder="type amount"></p>
+                <h3 class="heading">Expenses</h3>
+                <p>Food <input id="food" type="text" placeholder="type amount"></p>
+                <p>Rent <input id="rent" type="text" placeholder="type amount"></p>
+                <p>Clothes <input id="clothes" type="text  " placeholder="type amount"></p>
+                <button id="btn" class="heading">Calculate</button>
+                <h3 class="heading">Total Expenses = <span id="expence">0</span>
+                </h3>
+                <h3 class="heading">Balance = <span id="balance">0</span>
+                </h3>
+                <div>
+                    <p>Save <input type="text" placeholder="type percentage"> % <button>Save</button></p>
+                </div>
+            </section>
+
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

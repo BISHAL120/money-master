@@ -1,0 +1,31 @@
+#heading {
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#image {
+    height: 815px;
+    width: 705px;
+}
+
+#section2 {
+    box-sizing: border-box;
+    margin-left: 80px;
+    padding: 100px;
+    height: 815px;
+    width: 705px;
+    background-color: aquamarine;
+}
+
+.heading {
+    margin-left: 50px;
+}
